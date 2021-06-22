@@ -1,11 +1,17 @@
-rs.initiate(
-   {
-      _id: "myReplSet",
-      version: 1,
-      members: [
-         { _id: 0, host : "mongodb0.example.net:27017" },
-         { _id: 1, host : "mongodb1.example.net:27017" },
-         { _id: 2, host : "mongodb2.example.net:27017" }
-      ]
-   }
-)
+config = {
+  "_id":"usuarios",
+  "members":[
+    {
+      "_id":0,
+      "host":"nodo1:27017"
+    },
+    {
+      "_id":1,
+      "host":"nodo2:27017"
+    },
+    {
+      "_id":2,
+      "host":"nodo3:27017"
+    }
+  ]
+}
