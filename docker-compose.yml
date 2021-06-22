@@ -1,0 +1,17 @@
+config = {
+  "_id": "usuarios",
+  "members": [
+    {
+      "_id": 0,
+      "host": "nodo1:27017"
+    },
+    {
+      "_id": 1,
+      "host": "nodo2:27017"
+    },
+    {
+      "_id": 2,
+      "host": "nodo3:27017"
+    }
+  ]
+}
